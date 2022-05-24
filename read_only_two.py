@@ -1,6 +1,7 @@
-#this program is for print only last two lines 
-f=open('1.txt','r')
+#this program is for print only last two lines from last
+f=open('al.txt','r')
 a=f.readlines()
+print(a)
 b=len(a)
 print(b) 
 

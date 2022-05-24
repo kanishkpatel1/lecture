@@ -1,5 +1,5 @@
 #copy odd number of lines from one file to another file
-f1=open('1.txt','r+')
+f1=open('al.txt','r+')
 f2=open('2.txt','w')
 a=f1.readlines()
 for i in range(len(a)):
