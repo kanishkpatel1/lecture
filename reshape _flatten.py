@@ -1,0 +1,11 @@
+from numpy import*
+a=array([1,2,3,4,5,6])
+b=array([[1,2],[3,4],[5,6]])
+a=a.reshape(2,3)   
+print(a)
+b=b.flatten()
+print(b)
+c=eye(3)
+print(c)
+n=ones((3,2),int)   
+print(n)
